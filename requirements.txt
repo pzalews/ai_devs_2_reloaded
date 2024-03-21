@@ -1,0 +1,4 @@
+requests
+openai==1.14.2
+langchain
+langchain-openai
