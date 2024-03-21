@@ -35,7 +35,7 @@ ans = []
 for chapter in task["blog"]:
     inputs = {"input": chapter}
     response = chain.invoke(inputs)
-    memory.save_context(inputs, {"optput": response.content})
+    memory.save_context(inputs, {"output": response.content})
     ans.append(response.content)
     print("# " + chapter)
     print(response.content)
