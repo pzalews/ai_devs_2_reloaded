@@ -1,4 +1,7 @@
 requests
-openai==1.14.2
+openai
 langchain
 langchain-openai
+qdrant-client
+langchain-chroma
+
